@@ -3,16 +3,16 @@
 //  Expanding Picker View
 //
 //  Created by Richard Stockdale on 30/04/2018.
-//  Copyright © 2018 Virtuosys. All rights reserved.
 //
 
 import UIKit
 
 class ExpandingPickerView: UIView {
     
+    let titleLabel = UILabel()
+    let valueLabel = UILabel()
+    
     private let headerView = UIView()
-    private let titleLabel = UILabel()
-    private let valueLabel = UILabel()
     private let spinner = UIPickerView()
     
     private var closedHeight: CGFloat = 40.0

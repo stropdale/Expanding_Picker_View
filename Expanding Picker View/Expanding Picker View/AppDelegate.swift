@@ -3,7 +3,6 @@
 //  Expanding Picker View
 //
 //  Created by Richard Stockdale on 30/04/2018.
-//  Copyright © 2018 Virtuosys. All rights reserved.
 //
 
 import UIKit
